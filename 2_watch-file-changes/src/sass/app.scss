@@ -1,0 +1,7 @@
+$color-primary: #FF6F61;
+
+.sample {
+  &__title {
+    color: $color-primary;
+  }
+}
