@@ -1,5 +1,39 @@
 @import './var';
-@import './base';
-@import ',/container';
-@import './main';
-@import './navbar';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  min-height: 100vh;
+}
+
+body {
+  background: $background-color;
+  color: $text-color;
+  font-family: $font-family;
+  height: 100%;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.header {
+  background: $header-background-color;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: $content-width;
+  padding: 0 2%;
+}
+
+.title {
+  font-family: $title-font-family;
+  letter-spacing: 1px;
+  margin: 0 0 1rem 0;
+}

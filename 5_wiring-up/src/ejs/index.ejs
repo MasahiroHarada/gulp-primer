@@ -3,17 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Gulp Primer</title>
-  <%- include('./_styles') %>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans|Oleo+Script">
+  <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-  <div class="container container--gulp">
-    <%- include('./_navbar') %>
-    <main class="main">
-      <h1 class="main__title">Gulp</h1>
-      <div class="main__icon">
-        <i class="devicon-gulp-plain"></i>
-      </div>
-    </main>
-  </div>
+  <%- include('./_header') %>
+  <main>
+    <div class="container">
+      <h1 class="title">Hello Gulp</h1>
+      <p>gulp is a toolkit for automating painful or time-consuming tasks in your development workflow, so you can stop messing around and build something.</p>
+    </div>
+  </main>
 </body>
 </html>
